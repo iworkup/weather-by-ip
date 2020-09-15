@@ -97,7 +97,7 @@ if ($err_location) {
         $pressure = round($response_weather['main']['pressure'] * 0.75);
         $wind = $response_weather['wind']['speed'];
         $humidity = $response_weather['main']['humidity'];
-        $icon = 'http://openweathermap.org/img/wn/' . $response_weather['weather'][0]['icon'] . '@2x.png';
+        $icon = 'https://openweathermap.org/img/wn/' . $response_weather['weather'][0]['icon'] . '@2x.png';
 
         echo '<pre>';
         //var_dump($response_weather);
